@@ -49,7 +49,6 @@ table, th, td{
 }
 
 img {
-  display: block-inline;
   border: 5px solid;
   border-color: #A9F8FB;
   border-radius: 20px;
