@@ -1,3 +1,106 @@
 body {
-  background:blue
+  background: #DCD4E7;
+  color: #2F4445;
+  max-width: 900px;
+  border: 10px dotted #D1A5E4;
+  padding: 10px;
+  margin:auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-size: xx-large;
+  text-align: center;
+  background-color: #A9F8FB;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  background-color: #A9F8FB;
+  font-size: x-large;
+}
+
+#list{
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+a{text-decoration: none;}
+a:link{ color: #3B7169;}
+a:visited{ color: #2F5A54;}
+a:hover{ color: #5EB4A7;}
+a:active{ color: #3B7169;}
+
+table{
+  display: inline-block;
+  background-image: url("snugsdrool.png");
+  background-color: #D0C4DF;
+  border-radius:10px;
+
+}
+
+table, th, td{
+  border-collapse: collapse;
+  border: 2px solid #C792DF;
+  color: #A9F8FB;
+  padding: 3px;
+}
+
+img {
+  display: block-inline;
+  border: 5px solid;
+  border-color: #A9F8FB;
+  border-radius: 20px;
+  margin: auto;
+  max-width: 300px;
+}
+
+aside{
+  display: inline-block;
+  width: 40%;
+  vertical-align:top;
+
+}
+
+small{
+  font-size:x-small;
+  text-align: right;
+}
+
+nav{
+
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+#intro{
+  min-width: 40%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#introphoto{
+  margin: auto;
+  display: block;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 400px;
+    display:block;
+  }
+}
+
+.special{
+  border: 8px groove #D1A5E4;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
